@@ -1,0 +1,94 @@
+*{
+    margin: 0%;
+    
+}
+
+body{
+    background-image: linear-gradient(to right,grey,white,grey);
+    padding: 3%;
+}
+
+
+
+
+.main{
+    padding: 10px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 10px 10px 40px black;
+    width: 20%;
+    margin: auto;
+    border-radius: 30px;
+}
+
+.heading{
+    text-align: center;
+    padding: 10px;
+}
+
+#marks{
+    width: 27%;
+    border:0px solid black;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    margin: auto;
+}
+
+#total-marks{
+    width: 43%;
+    border:0px solid black;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    margin: auto;
+    
+}
+
+::placeholder{
+    color: white;
+}
+
+button{
+    padding: 10px 10px ;
+    width: max-content;
+    display: block;
+    margin: auto;
+    border:0px solid  ;
+    border-radius: 10px;
+    background-color: rgba(166, 142, 204, 0.5);
+    color: black;
+    font-weight: bold;
+    box-shadow: 5px 5px 20px black;
+    
+}
+
+hr{
+    width: 50%;
+    display: block;
+    margin: auto;
+    height: 4px;
+    background-color: blueviolet;
+}
+
+.but{
+    display: flex;
+    padding: 20px;
+}
+
+
+.ans{
+    display: block;
+     margin: auto;
+     text-align: center;
+     font-size: 50px;
+     color: rebeccapurple;
+     text-shadow: 5px 5px 30px black;
+     padding:10%;
+     font-family: 'Playfair Display', serif;
+}
